@@ -1,27 +1,386 @@
-<!doctype html>
-
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-  
-  <title>Tom Erickson</title>
-  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="assets/css/portfolio.css" rel="stylesheet">
+  <script type = "text/javascript" src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>           
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/js/materialize.min.js"></script>
 </head>
 
 <body>
+   
+  <nav class="nav-extended">
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo large-logo hide-on-med-and-down">Tom Erickson</a>
+      <a href="#" class="brand-logo hide-on-large-only">Tom Erickson</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="sass.html">About Me<i class="material-icons left">face</i></a></li>            
+        <li><a href="sass.html">Portfolio<i class="material-icons left">folder</i></a></li>
+        <li><a href="badges.html">Contact<i class="material-icons left">contact_mail</i></a></li>
+      </ul>
+    </div>
+    <div class="nav-content brand-logo center hide-on-large-only">
+      <ul class="tabs tabs-transparent">
+        <li><a href="sass.html">About Me<i class="material-icons left bottom about">face</i></a></li>            
+        <li><a href="sass.html">Portfolio<i class="material-icons left bottom portfolio">folder</i></a></li>
+        <li><a href="badges.html">Contact<i class="material-icons left bottom contact">contact_mail</i></a></li>      
+      </ul>
+    </div>
+  </nav>
 
-  <h1>My Website</h1>
+  <div class="row">
+    <div class="container description">
+      <div class="col s10 m12 l12 offset-s1">
+        <div class="card blue-grey darken-1">
+        <div class="icon-position"><i class="material-icons icon-color left">cancel</i></div>
+          <div class="card-content white-text">
+            <span class="card-title">My Projects</span>
+            <p>
+              When you click on the picture of a project below it will pull up a brief description of the project as well as the technologies
+              used in the making of the project. Clicking on the yellow link (ex. "EMBRACE THE POWER OF THE DARK SIDE") below the title will pull
+              up the application in your browser if it is as web application, and for applications not run in the browser it will link to the 
+              GitHub Repository where the project is located and where an extensive README can be found.
+            </p>
+          </div>
+          <div class="card-action">
+            <a href="https://github.com/ericksont11">GitHub</a>
+            <a href="https://www.linkedin.com/in/thomas-erickson-8428b4175/">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+            
+
+  <div class="row">
+    <div class="container">
+
+      <div class="card col l4 m6 s10 offset-s1">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="assets/images/chess.jpg">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator text-darken-4">Guessing Game<i class="material-icons right">menu</i></span>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title summary text-darken-4">Guessing Game<i class="material-icons icon-color reveal-icon right">cancel</i></span>
+          <div class="card-content">
+            <p class="italics">A basic hangman style game where a user types letters in an attempt to guess the name of a classic board game</p>
+            <br>
+            <h5 class="underlined">Technologies Used:</h5>
+            <ul>
+              <li>Html</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+              <li>JQuery</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card-action">
+          <a href="#" class="link">Guess the board game!</a>
+        </div>
+      </div>
+
+      <div class="card col l4 m6 s10 offset-s1">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="assets/images/tattooine.jpg">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator text-darken-4">Star-Wars RPG<i class="material-icons right">menu</i></span>
+        </div>
+        <div class="card-reveal s2">
+          <span class="card-title summary text-darken-4">Star-Wars RPG<i class="material-icons icon-color reveal-icon right">cancel</i></span>
+          <div class="card-content">
+          <p class="italics">A Star Wars RPG game where a user selects a character and attempts to defeat all the other characters before their health
+            decreases to zero. There is only one way for each character to win (but they all can) so choose your foes wisely!
+          </p>
+          <br>
+          <h5 class="underlined">Technologies Used:</h5>
+          <ul>
+            <li>Html</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>JQuery</li>
+          </ul>
+          </div>
+        </div>
+        <div class="card-action">
+          <a href="#" class="link">Embrace the power of the Dark Side!</a>
+        </div>
+      </div>
+
+      <div class="card col l4 m6 s10 offset-s1">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="assets/images/space.jpg">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator text-darken-4">Space Quiz<i class="material-icons right">menu</i></span>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title summary text-darken-4">Space Quiz<i class="material-icons icon-color reveal-icon right">cancel</i></span>
+          <div class="card-content">
+          <p class="italics">
+            This application is a quiz about general space and space exploration related trivia. 
+          </p>
+          <br>
+          <h5 class="underlined">Technologies Used:</h5>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>Javascript Timers</li>
+            <li>JQuery</li>
+          </ul>
+        </div>
+        </div>
+        <div class="card-action">
+          <a href="#" class="link">Test your space knowledge!</a>
+        </div>
+      </div>
+
+      <div class="card col l4 m6 s10 offset-s1">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="assets/images/game.gif">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator text-darken-4">Gif Generator<i class="material-icons right">menu</i></span>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title summary text-darken-4">Gif Generator<i class="material-icons icon-color reveal-icon right">cancel</i></span>
+          <div class="card-content">
+          <p class="italics">
+            This application generates gifs related to the input a user types by using the GIPHY API. And it starts with buttons that
+            will generate gifs related to some classic video games.
+          </p>
+          <br>
+          <h5 class="underlined">Technologies Used:</h5>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>Third Party APIs</li>
+            <li>JQuery</li>
+          </ul>
+        </div>
+        </div>
+        <div class="card-action">
+          <a href="#" class="link">Find some gifs!</a>
+        </div>
+      </div>
+    
+      <div class="card col l4 m6 s10 offset-s1">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="assets/images/music.jpg">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator text-darken-4">Music and Movies<i class="material-icons right">menu</i></span>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title summary text-darken-4">Music and Movies<i class="material-icons icon-color reveal-icon right">cancel</i></span>
+          <div class="card-content">
+          <p class="italics">
+            This application uses the Node Axios Package to search the OMDB, Spotify, and, BandsInTown APIs to show the users movie information,
+            song information, and concert dates respectively. A step-by-step tutorial is avaiable in both a text and video format in the README
+            of the repository here: 
+            <a href="https://github.com/ericksont11/LIRI">https://github.com/ericksont11/LIRI</a>
+          </p>
+          <br>
+          <h5 class="underlined">Technologies Used:</h5>
+          <ul>
+            <li>Javascript</li>
+            <li>Node JS</li>
+            <li>Node Axios Package</li>
+          </ul>
+        </div>
+        </div>
+        <div class="card-action">
+          <a href="#" class="link">Get music and movie information!</a>
+        </div>
+      </div>
+    
+      <div class="card col l4 m6 s10 offset-s1">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="assets/images/space-sounds.png">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator text-darken-4">Space Sounds<i class="material-icons right">menu</i></span>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title summary text-darken-4">Space Sounds<i class="material-icons icon-color reveal-icon right">cancel</i></span>
+          <div class="card-content">
+          <p class="italics">Space Sounds is an application geared towards elementary-age students to increase their interest in space by giving them
+            a game that lets them guess what space phenomena make certain sounds. Our belief is that the more senses students are able to
+            engage the more "concrete" these phenomena become, which in turn generates interest.
+          </p>
+          <br>
+          <h5 class="underlined">Technologies Used:</h5>
+          <ul>
+            <li>Html</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>3rd Party API</li>
+            <li>CSS Framework: Bulma</li>
+            <li>CSS Animations</li>
+          </ul>
+        </div>
+        </div>
+        <div class="card-action">
+          <a href="#" class="link">What's that noise!?</a>
+        </div>
+      </div> 
+
+      <div class="card col l4 m6 s10 offset-s1">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="assets/images/customer-interface.png">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator text-darken-4">Inventory Management System<i class="material-icons right">menu</i></span>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title summary text-darken-4">Inventory Management System<i class="material-icons icon-color reveal-icon right">cancel</i></span>
+          <div class="card-content">
+          <p class="italics">
+            The inventory Management system is split into three parts run in a CLI to simulate customer purchases, management inventory control,
+            and a supervisor interface that allows the creation of departments. A step-by-step tutorial is avaiable in both text and video formats
+            in the README of the repository here: 
+            <a href="https://github.com/ericksont11/bamazon">https://github.com/ericksont11/bamazon</a>
+          </p>
+          <br>
+          <h5 class="underlined">Technologies Used:</h5>
+          <ul>
+            <li>Javascript</li>
+            <li>Node JS</li>
+            <li>MySQL</li>
+            <li>Node Enquirer Package</li>
+          </ul>
+        </div>
+        </div>
+        <div class="card-action">
+          <a href="#" class="link">Manage a store!</a>
+        </div>
+      </div>
+
+      <div class="card col l4 m6 s10 offset-s1">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="assets/images/restaurant.png">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator text-darken-4">Tom's Restaurant Online Ordering<i class="material-icons right">menu</i></span>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title summary text-darken-4">Tom's Restaurant Online Ordering<i class="material-icons icon-color reveal-icon right">cancel</i></span>
+          <div class="card-content">
+          <p class="italics">
+            A simulation of a web application used for ordering food items online. Deployed at: 
+            <a href="https://tranquil-sands-68529.herokuapp.com/">https://tranquil-sands-68529.herokuapp.com/</a>
+          </p>
+          <br>
+          <h5 class="underlined">Technologies Used:</h5>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>CSS Framework: Bootstrap</li>
+            <li>Javascript</li>
+            <li>Express</li>
+            <li>Node.js</li>
+            <li>MySQL</li>
+            <li>Custom ORM</li>
+            <li>MVC Framwork</li>
+            <li>RESTful CRUD Operations</li>
+          </ul>
+        </div>
+        </div>
+        <div class="card-action">
+          <a href="#" class="link">Order some food!</a>
+        </div>
+      </div>
+
+      <div class="card col l4 m6 s10 offset-s1">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="assets/images/friendfinder.png">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator text-darken-4">Friend Finder<i class="material-icons right">menu</i></span>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title summary text-darken-4">Friend Finder<i class="material-icons icon-color reveal-icon right">cancel</i></span>
+          <h6 class="italics">Description:</h6>
+          <p class="italics">
+            An online dating application that matches users based on their answers to ten questions. Deployed at: 
+            <a href="https://ancient-woodland-34050.herokuapp.com/">https://ancient-woodland-34050.herokuapp.com/</a>
+          </p>
+          <br>
+          <h5 class="underlined">Technologies Used:</h5>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>CSS Framework: Bootstrap</li>
+            <li>Javascript</li>
+            <li>Express</li>
+            <li>Node.js</li>
+            <li>MySQL</li>
+            <li>MVC Framwork</li>
+          </ul>
+        </div>
+        <div class="card-action">
+          <a href="#" class="link">Find friends!</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
   
-  <p>This is some text.</p>
   
-  <a href="ericksont11.github.io/Portfolio.html">Go to my Portfolio!</a>
-  
-  <ul>
-    <li>One</li>
-    <li>Two</li>
-    <li>Three</li>
-  </ul>
-  
+      
+  <footer class="page-footer">
+      <div class="row">
+        <div class="container">
+          <div class="col l6 s12">
+            <h5 class="white-text">Mission</h5>
+            <p class="grey-text text-lighten-4">My mission is to pair stylish designs with intuitive user interfaces. I always strive to exceed
+              client expectations and to write code that is readable and follows best-practices in order to make maintaining the code as simple
+              and easy as possible.
+            </p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Additional Information</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="https://github.com/ericksont11">Github</a></li>
+              <li><a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/thomas-erickson-8428b4175/">LinkedIn</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-copyright">
+          <div class="container center">
+          Full-stack MERN Developer
+          </div>
+      </div>
+
+</footer>
+
+  <script>
+  // Autocomplete
+      const ac = document.querySelector('.autocomplete');
+      M.Autocomplete.init(ac, {
+          data: {
+          "Banana": null,
+          "Apple": null,
+          "Coconut": null,
+          "Carrot": null,
+          "Pear": null,
+          }
+      });
+
+      $(".icon-position").on("click", function() {
+        $(".description").css("display", "none")
+      })
+
+  </script>
+ 
 </body>
-  
+
 </html>

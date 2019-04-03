@@ -1,0 +1,135 @@
+
+body {
+    display: flex;
+    min-height: 100%;
+    flex-direction: column;
+    background-image: url("assets/images/full-bloom.png")
+}
+
+.nav-extended{
+    background-color: #226597;
+    margin-bottom: 8vh;
+}
+
+.description{
+    margin-bottom: 4vh;
+}
+
+.nav-content{
+    background-color: #226597;
+}
+.nav-wrapper {
+    background-color: rgb(25, 95, 150);
+
+}
+.page-footer {
+    background-color: #226597;
+    margin-top: 8vh
+}
+
+.footer-copyright {
+    background-color: #113f67
+}
+
+.tabs {
+    padding-top:3vh;
+}
+
+.bottom{
+    display: inline-flex;
+    vertical-align: top;
+    margin-top:-2.5vh
+}
+
+.large-logo {
+    margin-left:5vw
+}
+
+.portfolio{
+    margin-left: 6vw;
+}
+.contact{
+    margin-left: 6vw;
+}
+
+img {
+    height: 40vh;
+}
+
+.container {
+    margin: auto;
+    width: 90vw;
+    min-width: 90vw;
+}
+
+.card-title:hover {
+    cursor: pointer;
+}
+.underlined {
+    text-decoration: underline;
+}
+
+.card-reveal {
+    border: 2px #226597 solid;
+}
+
+.card {
+    color: #226597;
+}
+
+.italics {
+    font-style: italic
+}
+
+.icon-color {
+    color: white;
+    left:50%
+}
+
+.icon-position{
+    position: relative;
+    float: right;
+    padding: 2vh .25vw 2vh 1vw;
+    margin-right:none;
+    background-color: #546E7A;
+}
+
+.icon-position:hover{
+    cursor: pointer;
+}
+
+.menu {
+    position: relative;
+    margin-top: -5vh;
+    margin-bottom: 5vh;
+    float: right;
+}
+
+.summary {
+    background-color: #226597;
+    color:white;
+    height: auto;
+    padding: 0% 5% 0% 5%;
+}
+
+.card-reveal {
+    width: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+    background-image: url("assets/images/full-bloom.png");
+    font-size: 1.3em;
+    border: 1px white solid
+}
+
+.reveal-icon {
+    padding-top:2%
+}
+
+.card-content {
+    padding: 0% 5% 0% 5%
+}
+
+h5, li, p {
+    text-align:center
+}
+
