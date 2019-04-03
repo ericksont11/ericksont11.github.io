@@ -3,7 +3,7 @@ body {
     display: flex;
     min-height: 100%;
     flex-direction: column;
-    background-image: url("assets/images/full-bloom.png")
+    background-image: url("../images/full-bloom.png")
 }
 
 .nav-extended{
@@ -116,7 +116,7 @@ img {
     width: 100%;
     margin: 0 !important;
     padding: 0 !important;
-    background-image: url("assets/images/full-bloom.png");
+    background-image: url("../images/full-bloom.png");
     font-size: 1.3em;
     border: 1px white solid
 }
