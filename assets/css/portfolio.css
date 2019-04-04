@@ -9,6 +9,7 @@ body {
 .nav-extended{
     background-color: #226597;
     margin-bottom: 8vh;
+
 }
 
 .description{
@@ -27,9 +28,6 @@ body {
     margin-top: 8vh
 }
 
-.footer-copyright {
-    background-color: #113f67
-}
 
 .tabs {
     padding-top:3vh;
@@ -133,3 +131,12 @@ h5, li, p {
     text-align:center
 }
 
+#icon_comment {
+    border: 1px lightgray solid;
+    height: 20vh
+}
+
+.btn {
+    width: 40%;
+    margin-left: 30% /**Added This**/
+  }
