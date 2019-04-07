@@ -8,12 +8,20 @@ body {
 
 .nav-extended{
     background-color: #226597;
-    margin-bottom: 8vh;
-
+    position:fixed;
+    z-index: 3;
 }
 
-.description{
-    margin-bottom: 4vh;
+.description-row, .contact-row{
+    margin-top: 14vh;
+}
+
+.project-row {
+    margin-top: 4vh
+}
+
+.cancel {
+    z-index: 2;
 }
 
 .nav-content{
