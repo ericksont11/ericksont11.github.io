@@ -213,6 +213,10 @@ h5, li, p {
     .about-me-heading {
         margin-top: 69vh;
     }
+
+    .about-me-summary {
+        margin-top: 0vh
+    }
   }
 
 @media only screen and (max-width: 600px) {
