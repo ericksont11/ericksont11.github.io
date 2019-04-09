@@ -7,18 +7,12 @@ body {
 }
 
 .about {
-    background-image: url("../images/wheat.png");
+    background-color: #061D24;
+    background-image: none
 }
 
 .next {
-    background-image: url("../images/morocco.png");
-}
-
-
-.nav-extended{
-    background-color: #226597;
-    position:fixed;
-    z-index: 3;
+    background-image: url("../images/ignasi.png");
 }
 
 .description-row, .contact-row{
@@ -29,37 +23,52 @@ body {
     margin-top: 4vh
 }
 
+.footer-copyright {
+    background-color: rgb(7, 32, 39)
+}
 
-.text-white {
+
+.about-me-summary {
+    line-height: 3vh;
     color:white;
-    font-size: .5em;
+    font-size: .25em;
     font-family: 'Courier New', Courier, monospace;
-    background-color: rgba(6, 29, 36, .4);
     margin-top: -4vh;
 }
 
-.goldenrod {
+.about-me-heading {
     color: white;
     font-family: 'Courier New', Courier, monospace;
     margin-top: 65vh;
-    font-size:  4em;
-    background-color: rgba(6, 29, 36, .4);
-    text-decoration: underline;
+    font-size:  2em;
 }
 
 .cancel {
     z-index: 2;
 }
 
-.nav-content{
-    background-color: #226597;
+
+.nav-extended{
+    background-color: rgb(7, 32, 39);
+    position:fixed;
+    z-index: 3;
+    border-bottom: white solid 1px
 }
+
+.nav-content{
+    background-color: rgb(8, 40, 49);
+}
+
+.tabs {
+    background-color: rgb(7, 32, 39);
+}
+
 .nav-wrapper {
-    background-color: rgb(25, 95, 150);
+    background-color: #061D24;
 
 }
 .page-footer {
-    background-color: #226597;
+    background-color: #061D24;
     margin-top: 8vh;
 }
 
@@ -191,3 +200,23 @@ h5, li, p {
 .text-center {
     text-align:center
 }
+
+.white-text {
+    color: white;
+}
+
+@media only screen and (max-width: 992px) {
+    .avatar {
+        top: 48%;
+    }
+        
+    .about-me-heading {
+        margin-top: 69vh;
+    }
+  }
+
+@media only screen and (max-width: 600px) {
+    .avatar {
+        top: 45%;
+    }
+  }
