@@ -205,6 +205,10 @@ h5, li, p {
     color: white;
 }
 
+.input-field { 
+    z-index: 2
+}
+
 @media only screen and (max-width: 992px) {
     .avatar {
         top: 48%;
@@ -216,6 +220,9 @@ h5, li, p {
 
     .about-me-summary {
         margin-top: 0vh
+    }
+    .description-row, .contact-row{
+        margin-top: 25vh;
     }
   }
 
